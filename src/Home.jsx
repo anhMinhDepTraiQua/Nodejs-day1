@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const API_URL = 'http://localhost:3000/api/tasks';
 
-export default function TaskManager() {
+export default function Home() {
   const [tasks, setTasks] = useState([]);
   const [newTaskTitle, setNewTaskTitle] = useState('');
   const [loading, setLoading] = useState(true);
